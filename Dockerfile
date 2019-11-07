@@ -7,7 +7,7 @@ RUN apk add --no-cache \
   curl \
   git
 
-RUN gem install dpl
+RUN gem install dpl --pre
 
 COPY entrypoint.sh /
 
